@@ -27,7 +27,8 @@
     "build": "node build.js",
     "postbuild": "tsc --emitDeclarationOnly",
     "pretry": "yarn build",
-    "try": "node dist/index.js"
+    "try": "node dist/index.js",
+    "prepublish": "yarn build"
   },
   "husky": {
     "hooks": {
