@@ -2,7 +2,7 @@
   "name": "symian",
   "version": "0.1.0",
   "private": false,
-  "description": "A cross platform symlinker.",
+  "description": "A tiny (927B) CLI wrapper for fs.symlink",
   "repository": "https://github.com/Renddslow/symian",
   "license": "MIT",
   "author": "Matt McElwee <mubatt@wyopub.com>",
@@ -10,6 +10,19 @@
   "bin": {
     "symian": "dist/index.js"
   },
+  "keywords": [
+    "symlink",
+    "symlink cli",
+    "file system",
+    "fs",
+    "fs cli",
+    "link",
+    "make link",
+    "mklink",
+    "ln",
+    "symbolic",
+    "symbolic link"
+  ],
   "scripts": {
     "build": "node build.js",
     "postbuild": "tsc --emitDeclarationOnly",

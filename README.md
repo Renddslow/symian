@@ -1,7 +1,6 @@
 # symian
 
-> A cross platform symlinker.
-
+> A tiny (927B) CLI wrapper for fs.symlink
 
 ## Install
 
@@ -9,12 +8,22 @@
 $ yarn add symian
 ```
 
+Or use via npx
+
+```
+$ npx symian <target> <path>
+```
 
 ## Usage
 
-```js
-
 ```
+  Description
+    Creates a link called "path" point to "target".
 
+  Usage
+    $ symian <target> <path> [options]
 
-## API
+  Options
+    -v, --version    Displays current version
+    -h, --help       Displays this message
+```
