@@ -1,4 +1,4 @@
-#!usr/bin/env node
+#!/usr/bin/env node
 import sade from 'sade';
 import readPkgUp from 'read-pkg-up';
 import fs from 'fs';
