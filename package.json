@@ -1,6 +1,6 @@
 {
   "name": "symian",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "A tiny (927B) CLI wrapper for fs.symlink",
   "repository": "https://github.com/Renddslow/symian",
